@@ -1,0 +1,120 @@
+body{
+    background-color: #D9DBF1;
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+h1{
+    text-align: center;
+    background-color: #a9b3d1;
+    color: #5761a2;
+    margin-top: -1rem;
+    padding: 1.2rem;
+}
+
+.btn{
+    padding: 3rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+    margin-top: -2rem;
+}
+
+
+#reset{
+    padding: 1rem ;
+    border-radius: 15px;
+    border: none;
+    margin-top: 3rem;
+    position: absolute;
+    left: 37rem;
+    background-color: #8195d0;
+    color: white;
+    font-weight: bolder;
+}
+
+#rock{
+    background-color: rgb(152, 152, 192);
+    background-image: url(fist.png);
+    background-size: contain;
+  }
+  
+  #paper{
+    background-color: rgb(152, 152, 192);
+    background-image: url(hello.png);
+    background-size: contain;
+  }
+  
+  #scissor{
+    background-color: rgb(152, 152, 192);
+    background-image: url(scissors.png);
+    background-size: contain;
+  }
+
+#reset:hover,#rock:hover,#paper:hover,#scissor:hover{
+    /* background-color: #5e77da; */
+    background-color:#5761a2 ;
+}
+
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5rem;
+    color: #5761a2;
+    font-weight: bolder;
+}
+.box{
+    margin-top: 0.1rem;
+    font-size: 1.4rem;
+    position: relative;
+    left: -1rem;
+}
+
+#result{
+    height: 50px;
+    width: 450px;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 25rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+    background-color: #8195d0;
+}
+
+#result h4{
+    text-align: center;
+    position: relative;
+    top: 0.6rem;
+    color: white;
+}
+
+.showresult{
+    /* visibility: visible !important; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    position: relative;
+    left:-1rem;
+    margin-top: 5rem;
+    font-size: 1.8rem;
+
+
+}
+
+  

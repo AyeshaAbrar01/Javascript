@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(225, 211, 211);
+}
+.showresult{
+    height: 15vh;
+    width: 60vh;
+    border: 2px solid black;
+    position: relative;
+    left: 29rem;
+    top: 4rem;
+    background-color:rgb(255, 255, 255) ;
+}
+.container {
+    height: 70vh;
+    width: 60vh;
+    border: 2px solid black;
+    position: relative;
+    left: 29rem;
+    top: 2rem;
+    background-color:rgb(255, 255, 255) ;
+  }
+  
+  .game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    position: relative;
+    top: 2rem;
+  }
+  .btn {
+    height: 11vmin;
+    width: 11vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: white;
+    background-color: black;
+  }
+  .txt{
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  .btn:hover{
+    background-color: white;
+    color: black;
+  }
